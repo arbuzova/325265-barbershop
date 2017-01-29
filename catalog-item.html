@@ -6,10 +6,14 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="main-header">
-      <div class="container">
+     <header class="main-header">
+      <div class="container clearfix">
+        <div class="logo">
+          <a href="#" class="header-logo">
+            <img src="img/logo-nav.png" alt="Barbershop" width="110" height="24">
+          </a>
+        </div>
         <nav class="main-navigation">
-          <a href="#" class="header-logo"><img src="img/logo-nav.png" alt="Barbershop" width="111" height="24"></a>
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -33,7 +37,7 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="container clearfix">
       <h1>Набор для путешествий "Baxter of California"</h1>
       <ul class="breadcrumbs">
         <li>
@@ -49,25 +53,21 @@
           <a href="#" class="active">Набор для путешествий "Baxter of California"</a>
         </li>
       </ul>
-      <section>
-        <img  src="img/item-big.jpg"  alt="Набор для путешествий Baxter of California" width="486" height="524">
-        <img  src="img/item-small-1.jpg" alt="Набор для путешествий Baxter of California" width="166" height="175">
-        <img  src="img/item-small-2.jpg"  alt="Набор для путешествий Baxter of California" width="166" height="175">
-        <img  src="img/item-small-3.jpg"  alt="Набор для путешествий Baxter of California" width="166" height="175">
+      <section class="item-images">
+        <img class="item item-big" src="img/item-big.jpg"  alt="Набор для путешествий Baxter of California" width="486" height="524">
+        <img class="item item-small"src="img/item-small-1.jpg" alt="Набор для путешествий Baxter of California" width="166" height="175">
+        <img class="item item-small" src="img/item-small-2.jpg"  alt="Набор для путешествий Baxter of California" width="166" height="175">
+        <img class="item item-small" src="img/item-small-3.jpg"  alt="Набор для путешествий Baxter of California" width="166" height="175">
       </section>
-      <section>
-        <p>Есть в наличии</p>
-        <p>Артикул: Dexter-AE</p>
-      </section>
-      <section>
-        <p>Travel Kit - необходимый аксесуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-      </section>
-      <section>
-        <b>2900 РУБ.</b>
-        <a href="#" class="buy-btn">Купить</a>
-      </section>
-      <section>
-        <h2>В набор входят:</h2>
+      <section class="item-info">
+        <p class="in-stock">Есть в наличии</p>
+        <p class="code">Артикул: Dexter-AE</p>
+        <div class="description">
+          <p>Travel Kit - необходимый аксесуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+          <b>2900 РУБ.</b>
+          <a href="#" class="buy-btn">Купить</a>
+        </div>
+        <p class="consist">В набор входят:</p>
         <ul>
           <li>Средство для умывания (50 мл.)</li>
           <li>Увлажняющий крем (50 мл.)</li>
@@ -78,7 +78,7 @@
       </section>
       </main>
       <footer class="main-footer">
-        <div class="container">
+        <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
