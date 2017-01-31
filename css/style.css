@@ -1,3 +1,7 @@
+*{
+  outline: 1px dashed red;
+}
+
 body {
   font-size: 14px;
   line-height: 24px;
@@ -27,7 +31,6 @@ legend {
 }
 .clearfix::after {
   content: "";
-
   display: table;
   clear: both;
 }
@@ -56,7 +59,7 @@ legend {
 
 .breadcrumbs {
   float:left;
-  width: 940px;
+  width: 900px;
 }
 
 .filters {
@@ -69,7 +72,6 @@ legend {
   width: 700px;
   margin-right: 10px;
   font-size: 0;
-
 }
 
 .catalog-item {
@@ -114,7 +116,6 @@ legend {
   float: left;
   width: 480px;
   font-size: 0;
-
 }
 
 .item {
@@ -131,25 +132,34 @@ legend {
 }
 
 .item-info {
+  float: right;
   width: 400px;
-  margin-left: 550px;
+  font-size: 0;
 }
 
 .in-stock {
   float: left;
+  font-size: 14px;
 }
 
 .code {
   float: right;
+  font-size: 14px;
 }
 
 .description {
   display: inline-block;
   margin-top: 40px;
   margin-bottom: 67px;
+  font-size: 14px;
 }
 
 .consist {
   margin-bottom: 36px;
+  font-size: 14px;
+}
+
+.consist-items {
+  font-size: 14px;
 }
 
