@@ -9,8 +9,6 @@ body {
 }
 
 h1 {
-  float: left;
-  width: 940px;
   font-size: 30px;
   line-height: 42px;
   color: #000000;
@@ -55,11 +53,6 @@ legend {
 .user-block {
   float: right;
   width: 90px;
-}
-
-.breadcrumbs {
-  float:left;
-  width: 900px;
 }
 
 .filters {
