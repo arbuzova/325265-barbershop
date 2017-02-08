@@ -27,106 +27,93 @@ legend {
   line-height: 30px;
   color: #000000;
 }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-
-.main-header {
-  display: flex;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 60px;
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .logo {
-  width:140px;
-  margin-right: 20px;
-  margin-left: auto
+  float:left;
+  width:110px;
+  margin-right: 40px;
 }
 
 .main-navigation {
+  float: left;
   width: 540px;
-  margin-right: 160px;
 }
 
 .user-block {
-  width: 80px;
-   margin-right: auto;
-}
-
-main {
-  width: 940px;
-  margin: 0 auto;
-  padding-top: 60px;
-  padding-bottom: 45px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.breadcrumbs{
-  margin-bottom: 40px;
-}
-
-.catalog{
-  display: flex;
-   width: 940px; 
+  float: right;
+  width: 90px;
 }
 
 .filters {
-  width: 160px;
-  margin-right: 80px;
-  
+  float: left;
+  width: 220px;
 }
 
-.items {
-  display:flex;
-  justify-content: space-between;
-  
-  flex-wrap: wrap;
+.catalog {
+  float: right;
   width: 700px;
- 
-}
-.pages{
-  width: 220px;
+  margin-right: 10px;
+  font-size: 0;
 }
 
 .catalog-item {
+  display: inline-block;
   width: 220px;
-  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .main-footer {
-  display: flex;
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .footer-contacts {
+  float: left;
   width: 320px;
-  margin-left: auto;
   margin-right: 60px;
+  min-height: 90px;
 }
 
 .footer-social {
+  float: left;
   width: 180px;
+  min-height: 90px;
 }
 
 .footer-copyright {
-  width: 160px;
-  margin-left: 220px;
-  margin-right: auto;
+  float: right;
+  width: 180px;
+  min-height: 90px;
 }
-.item-card {
-  display:flex;
-}
+
 .item-images {
-  display: flex;
-  flex-wrap: wrap;
+  float: left;
   width: 480px;
-  margin-right: 80px;
-  margin-left: auto;
- 
+  font-size: 0;
+}
+
+.item {
+  display: inline-block;
+  font-size: 14px;
 }
 
 .item-big {
@@ -138,20 +125,26 @@ main {
 }
 
 .item-info {
+  float: right;
   width: 400px;
-  margin-right: auto;
- 
+  font-size: 0;
 }
 
-.in-stock { 
+.in-stock {
+  float: left;
+  font-size: 14px;
 }
 
 .code {
+  float: right;
+  font-size: 14px;
 }
 
 .description {
+  display: inline-block;
   margin-top: 40px;
   margin-bottom: 67px;
+  font-size: 14px;
 }
 
 .consist {
